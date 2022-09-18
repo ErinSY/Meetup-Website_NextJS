@@ -2,9 +2,7 @@ import React from 'react';
 import NewMeetupForm from '../../components/meetups/NewMeetupForm';
 
 function NewMeetupPage() {
-  const meepupDataHandler = (meetupData) => {
-    console.log(meetupData);
-  };
+  const meepupDataHandler = (meetupData) => {};
 
   return (
     <div>
@@ -14,4 +12,3 @@ function NewMeetupPage() {
 }
 
 export default NewMeetupPage;
-
